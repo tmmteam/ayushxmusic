@@ -8,8 +8,8 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
-from ArohiX.utils.database import is_on_off
-from ArohiX.utils.formatters import time_to_seconds
+from AarohiX.utils.database import is_on_off
+from AarohiX.utils.formatters import time_to_seconds
 import os
 import glob
 import random
