@@ -46,7 +46,7 @@ API_KEY = getenv("API_KEY", "30DxNexGenBots80ea9c") # youtube song api key,
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/otploothub")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/frozentools")
 
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
 AUTO_SUGGESTION_TIME = int(
     getenv("AUTO_SUGGESTION_TIME", "500"))
