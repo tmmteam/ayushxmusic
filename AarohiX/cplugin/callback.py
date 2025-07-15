@@ -11,10 +11,10 @@ import config
 from Clonify.utils.database import get_assistant
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from Clonify import YouTube, app
-from Clonify.core.call import PRO
-from Clonify.misc import SUDOERS, db
-from Clonify.utils.database import (
+from AarohiX import YouTube, app
+from AarohiX.core.call import PRO
+from AarohiX.misc import SUDOERS, db
+from AarohiX.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -28,9 +28,9 @@ from Clonify.utils.database import (
     is_muted,
     set_loop,
 )
-from Clonify.utils.decorators.language import languageCB
-from Clonify.utils.formatters import seconds_to_min
-from Clonify.utils.inline import (
+from AarohiX.utils.decorators.language import languageCB
+from AarohiX.utils.formatters import seconds_to_min
+from AarohiX.utils.inline import (
     close_markup,
     stream_markup,
     stream_markup_timer,
@@ -52,8 +52,8 @@ from Clonify.utils.inline import (
     queue_markup,
     panel_markup_1,
 )
-from Clonify.utils.stream.autoclear import auto_clean
-from Clonify.utils.thumbnails import get_thumb
+from AarohiX.utils.stream.autoclear import auto_clean
+from AarohiX.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
