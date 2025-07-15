@@ -8,7 +8,7 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 import config
-from Clonify.utils.database import get_assistant
+from AarohiX.utils.database import get_assistant
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from AarohiX import YouTube, app
@@ -66,7 +66,7 @@ from config import (
 )
 from strings import get_string
 from config import lyrical
-from Clonify.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from AarohiX.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 wrong = {}
 
