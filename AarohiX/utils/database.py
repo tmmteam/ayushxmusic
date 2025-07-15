@@ -2,7 +2,7 @@ import random
 from typing import Dict, List, Union
 
 from AarohiX import userbot
-from AarohiX.core.mongo import mongodb
+from AarohiX.core.mongo import mongodb, pymongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
